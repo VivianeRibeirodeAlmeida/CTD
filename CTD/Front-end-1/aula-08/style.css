@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+background-color: #131313;
+
+}
+h1 {
+color: white;
+font-family: 'Roboto', sans-serif;
+}
+.media-picture {
+height: 400px;
+background-image: url('https://static.cdn.pleno.news/2020/01/Mulher-Maravilha-e1577978008986.jpg')
+
+}
+
+.review-score {
+color: white;
+background-color: #e6bd09;
+padding: 12px;
+
+}
+
+h2 {
+    color: steelblue;
+}
+
+p{
+color: #bdbdbd;
+}
+
+a {
+font-family: 'Roboto', sans-serif;
+color: yellow;  
+}
