@@ -1,0 +1,149 @@
+
+@import url('https://fonts.googleapis.com/css2? family= Roboto & display=swap');
+
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+.cabecalho {display: flex;
+justify-content: space-between;
+background-color: rgb(228, 182, 57);
+font-weight: bolder;
+font-family: 'Roboto';
+font-size: 1,5rem;
+top: 0%;
+width: 100%;
+list-style: none;
+padding: 15px;
+}
+
+.cabecalho_logo{
+height: 40px;
+}
+
+.acessos_lista{display: flex;
+font-family: 'Roboto';
+list-style: none;
+font-size: 1.1rem;
+padding: 12px 8px;
+text-decoration: none;
+gap: 12px;}
+
+.imagem-principal  {
+display: flex;
+flex-direction: column;  
+width: 100%;    
+background-repeat: no-repeat;
+background-size: cover;
+
+}
+
+.section-curiosidades {
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+gap: 40px;
+padding: 20px;
+}
+
+.curiosidades{display: flex;
+font-family: 'Roboto';
+padding: 15px;
+justify-content: center;
+font-size: 1.5rem;
+}
+
+
+.card {
+background-color: rgb(218, 199, 158);
+border-radius: 24px;
+overflow: hidden;
+height: fit-content;
+box-sizing: content-box;
+width: 300px;
+}
+
+.image-curiosidades {
+height: 320px;
+top: -80px;
+left: 10px;
+
+}
+
+.texto_card {
+font-family: 'Roboto';
+padding: 0 30px;
+justify-content: flex-end;
+}
+
+.video_beyonce {
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+.video_texto{ font-family: 'Roboto';
+font-size: 2rem;
+}
+
+iframe {
+margin-bottom: 30px;
+}
+
+.rodape { top: 1800px;
+background-color: rgb(228, 182, 57);
+font-family: 'Roboto';
+padding: 10px 30px;
+   
+}
+
+.legenda {font-size: 1.5rem;
+align-items: initial;
+}
+
+.card_rodape {display: flex;
+    gap: 50px;
+justify-content: center;
+flex-wrap: wrap;
+top: 3000px;
+}
+
+.rodape_info{display: flex;
+align-items: center;
+flex-direction: column;
+gap: 10px;
+}
+
+.image-rodape { height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    
+}
+
+.text_info { 
+    text-decoration: none;
+}
+
+
+@media (max-width:900px)
+{.curiosidades { flex-direction: column;
+    align-items: center;}
+.section-curiosidades { flex-direction: column;
+    align-items: center;}
+}
+
+@media (max-width:700px)
+{.section-curiosidades { flex-direction: column;
+align-items: center;}
+.rodape { flex-direction: column;
+    align-items: center;}
+.cabecalho{ flex-direction: column;
+    align-items: center;}
+.acessos_lista{ flex-direction: column;
+        align-items: center;}
+.card_rodape { flex-direction: column;
+            align-items: center;}
+}
+
