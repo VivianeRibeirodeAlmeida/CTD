@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;1,300&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: 0;
+    font-family: 'Roboto', sans-serif;
+}
+.cabecalho-geral {
+    width: 100%;
+    height: 140px;
+}
+
+.cabecalho-geral .desconto {
+    width: 100%;
+    height: 20px;
+    background-color: #1CD1B0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.cabecalho-geral .desconto h2 {
+    display: flex;
+    align-items: center;
+    font-size: .9375rem;
+    color: #000000;
+    font-weight: 400;
+    padding-left: 20px;
+}
+.cabecalho-geral .cabecalho {
+    display: flex;
+    width: 100%;
+    height: 80px;
+    justify-content: space-between;
+    background-color: #00669F;
+
+}
+.cabecalho-geral .cabecalho h1 {
+    display: flex;
+    align-items: center;
+    font-size: 1.875rem;
+    font-weight: 400;
+    color: #FFFFFF;
+    padding-left: 10px;
+}
+.cabecalho-geral .navegacao {
+    background-color: #001D2D;
+    width: 100%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.cabecalho-geral .navegacao nav ul {
+    display: flex;
+    gap: 30px;
+    padding-right: 40px;
+}
+.cabecalho-geral .navegacao nav ul li {
+    list-style-type: none;
+
+}
+.cabecalho-geral .navegacao nav ul li a {
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 1rem;
+    font-weight: 400;
+}
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    min-height: 100vh;
+}
+.main .add-form {
+    width: 100%;
+    max-width: 955px;
+    display: flex;
+    justify-content:center;
+    flex-direction: column;
+    height: 832px;
+    background-color: #00669F;
+    border-radius: 50px;
+    margin: 30px;
+}
+.main .add-form .titulo-form {
+    display: flex;
+    flex-direction: column;
+    height: 100px;
+    width: 100%;
+}
+.main .add-form .titulo-form h1 {
+    display: flex;
+    justify-content: center;
+    font-size: 2.5rem;
+    color: #FBFFFD;
+    font-weight: 700;
+    padding: 10px;
+}
+.main .add-form .titulo-form h2 {
+    display: flex;
+    justify-content: center;
+    font-size: 1.25rem;
+    font-weight: 300;
+    color: #FFFFFF;
+}
+.main .add-form .formulario {
+    display: flex;
+    flex-direction: column;
+    height: 732px;
+    width: 100%;
+    max-width: 955px;
+    justify-content:center;
+    align-items: center;
+}
+.main .add-form .formulario .controlador {
+    display: flex;
+    flex-direction: column;
+}
+.main .add-form .formulario .controlador div {
+    display: flex;
+}
+.main .add-form .formulario .controlador div .div-1 {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    height: 600px;
+    width: 375px;
+    margin: 10px;
+    
+}
+.main .add-form .formulario .controlador div .div-1 label {
+    font-size: 1.25rem;
+    font-weight: 300;
+    color: #FFFFFF;
+}
+.main .add-form .formulario .controlador div .div-1 input {
+    width: 100%;
+    max-width: 343px;
+    height: 63px;
+    background-color: #FFFFFF;
+    border: 1.53407px solid rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+    padding-left: 10px;
+ 
+}
+
+
+
+ .botao {
+    display: flex;
+    align-self: center;
+    align-items: center;
+    justify-content: center;
+    background-color: #1CD1B0;
+    width: 100%;
+    max-width: 466px;
+    height: 70px;
+    border-radius: 15px;
+    color: #000000;
+    font-size: 2.2rem;
+    line-height: 44px;
+      
+   
+}
+
+.rodape {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 60px;
+    background-color: #00669F;
+}
+.rodape h2 {
+    color: #E5E5E5;
+    font-size: 1rem;
+    font-weight: 400;
+}
